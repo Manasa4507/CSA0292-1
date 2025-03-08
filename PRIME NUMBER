@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+    int i,num,count=0;
+    printf("enter the value=");
+    scanf("%d",&num);
+    for(i=2;i<=num/2;++i)
+    if (num%i==0)
+    {
+        count=count+1;
+    }
+    if (count==0)
+    {
+        printf("it is a prime number");
+    }
+    else
+    {
+        printf("it is mot a prime number");
+    }
+    return 0;
+}
+OUTPUT
+enter the value=2
+it is a prime number
+
+=== Code Execution Successful ===
