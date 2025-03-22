@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<string.h>
+struct student
+{
+char name[10];
+int rollno;
+float marks;
+}s;
+int main()
+{
+strcpy(s.name,"manasa");
+s.rollno=3;
+s.marks=90;
+printf("name =%s\n",s.name);
+printf("rollno=%d\n",s.rollno);
+printf("marks=%f\n",s.marks);
+return 0;
+}
+OUTPUT
+name =manasa
+rollno=3
+marks=90.000000
+
+
+=== Code Execution Successful ===
